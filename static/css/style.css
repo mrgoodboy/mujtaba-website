@@ -1,0 +1,142 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+* {
+	font-family: Garamond;
+	margin: 0;
+	padding: 0;
+}
+
+.mainLogo {
+	line-height: 100px;
+	z-index: 10;
+	color: white;
+	display: inline-block;
+	font-size: 3em;
+}
+
+.navbar {
+	height: 100px;
+	padding: 0 30px;
+}
+
+
+
+.navlink {
+	display: inline-block;
+	float: right;
+	margin-right: 30px;
+	line-height: 100px;
+}
+
+.navlink > a {
+	z-index: 100;
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: white;
+}
+
+.hero {
+	background: url('../img/tempHero.jpg') no-repeat center center fixed;
+	background-size: cover;
+	height: 700px;
+	position: relative;
+}
+
+.heroContent {
+	display: block;
+	padding-top: 200px;
+	text-align: center;
+
+}
+
+.heroContent > section {
+	margin-bottom: 1em;
+	color: white;
+}
+
+.heroText0 {
+	font-style: italic;
+	font-family: Garamond;
+	font-size: 1.5em;
+}
+
+.heroText1 {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	font-size: 2em;
+}
+
+.heroButton {
+	border: 0 none;
+	border-radius: 2px 2px 2px 2px;
+	color: #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-family: Arial ,sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 20px;
+	margin-bottom: 0;
+	margin-top: 10px;
+	padding: 7px 10px;
+	text-transform: none;
+	transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	width: 130px; /* auto */
+	height: 40px;
+	line-height: 40px;
+	border-radius: 35px;
+	text-align: center; /* DELETE WHEN WIDTH AUTO */
+	background: none repeat scroll 0 0 #2DB6CF;
+	color: white;
+
+}
+
+.heroButton:hover {
+	background: none repeat scroll 0 0 #444444;
+	color: white;
+}
+
+.section {
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	display: block;
+	max-width: 700px;
+}
+
+.section > p {
+	margin: 1em 0;
+	font-size: 1.3em;
+}
+
+.socialFooter {
+	background-color: #35363a;
+	height: 100px;
+	text-align: center;
+	line-height: 130px;
+}
+
+.socialFooter > a {
+	display: inline-block;
+	margin-right: 25px;
+	margin-left: 25px;
+
+}
+
+.socialFooter > a:hover {
+	opacity: 0.7;
+}
+
+.contactsFooter {
+	height: 120px;
+	background-color: #000000;
+	line-height:120px;
+	text-align: center;
+}
+
+.contactsFooter > span {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	color: white;
+}
+
