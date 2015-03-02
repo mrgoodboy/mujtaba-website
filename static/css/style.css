@@ -1,5 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
-
+@import url(http://fonts.googleapis.com/css?family=Lato);
 * {
 	font-family: Garamond;
 	margin: 0;
@@ -39,7 +38,7 @@
 	-moz-transition: all 0.3s ease 0s;
 	-webkit-transition: all 0.3s ease 0s;
 	z-index: 100;
-	font-family: Futura, Helvetica, Arial, sans-serif;
+	font-family: Lato, Helvetica, Arial, sans-serif;
 	text-decoration: none;
 	color: white;
 }
@@ -87,8 +86,8 @@
 	color: #FFFFFF;
 	cursor: pointer;
 	display: inline-block;
-	font-family: Arial ,sans-serif;
-	font-size: 12px;
+	font-family: Lato ,sans-serif;
+	font-size: 14px;
 	font-weight: bold;
 	line-height: 20px;
 	margin-bottom: 0;
@@ -173,7 +172,7 @@
 }
 
 .contactsFooter > a {
-	font-family: Futura, Helvetica, Arial, sans-serif;
+	font-family: Lato, Helvetica, Arial, sans-serif;
 	color: white;
 	width: 250px;
 	text-decoration: none;
