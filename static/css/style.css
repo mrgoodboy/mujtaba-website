@@ -7,7 +7,7 @@
 }
 
 .mainLogo {
-	line-height: 100px;
+	line-height: 130px;
 	z-index: 10;
 	color: white;
 	display: inline-block;
@@ -15,24 +15,31 @@
 }
 
 .navbar {
-	height: 100px;
-	padding: 0 30px;
+	height: 150px;
+	padding: 0 50px;
 }
-
-
 
 .navlink {
 	display: inline-block;
 	float: right;
 	margin-right: 30px;
-	line-height: 100px;
+	line-height: 130px;
+	
 }
 
+
 .navlink > a {
+	transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
 	z-index: 100;
 	font-family: Futura, Helvetica, Arial, sans-serif;
 	text-decoration: none;
 	color: white;
+}
+
+.navlink > a:hover {
+	color: #f3cc92;
 }
 
 .hero {
@@ -44,7 +51,7 @@
 
 .heroContent {
 	display: block;
-	padding-top: 200px;
+	padding-top: 150px;
 	text-align: center;
 
 }
@@ -131,12 +138,33 @@
 .contactsFooter {
 	height: 120px;
 	background-color: #000000;
-	line-height:120px;
+}
+
+.contactsFooter > a {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	color: white;
+	text-decoration: none;
+}
+
+.contactsFooter > a:hover {
+	color: #f3cc92;
+	transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+}
+
+.contactsFooter > #contactMail {
+	line-height: 80px;
+	display: block;
 	text-align: center;
 }
 
-.contactsFooter > span {
-	font-family: Futura, Helvetica, Arial, sans-serif;
-	color: white;
+.contactsFooter > #signature {
+	line-height: 40px;
+	display: block;
+	text-align: right;
+	margin-right: 30px;
+	font-style: italic;
+	font-family: Garamond, serif;
 }
 
