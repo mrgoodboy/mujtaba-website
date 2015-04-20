@@ -255,6 +255,13 @@ Arrow
 	width: 100%;
 }
 
+/* resume */
+
+object {
+	vertical-align: middle;
+	min-height: 1000px;
+}
+
 
 /*footer*/
 
