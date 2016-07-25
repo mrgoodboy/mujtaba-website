@@ -225,6 +225,9 @@ Arrow
 .section {
 	padding-top: 50px;
 	padding-bottom: 50px;
+	display: block;
+	margin: auto;
+	width: 600px;
 }
 
 .section > p {
